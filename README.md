@@ -28,6 +28,11 @@ sudo pacman -S nodejs
 ```bash
 :PlugInstall
 ```
+After that create a file named as `.ccls` in your project folder and add these two lines:
+``` bash
+clang++
+%h %cpp -std=c++17
+```
 That's it you are now good to go if no errors were occured
 
 
