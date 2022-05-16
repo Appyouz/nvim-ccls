@@ -3,7 +3,7 @@
 A personal Neovim config 
 
 ## Installation 
-##### Takes arch linux as a platform, just use your respective package manager for installing packages(for eg:- `sudo apt install` for debian)
+Takes arch linux as a platform, just use your respective package manager for installing packages(for eg:- `sudo apt install` for debian)
 
 1. Install [Node.js](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiehrffoeT3AhWeRmwGHcKWAoYQFnoECAgQAQ&url=https%3A%2F%2Fnodejs.org%2F&usg=AOvVaw1tY2p-vJFWJmxWlq4sTxCn)
 ``` bash 
