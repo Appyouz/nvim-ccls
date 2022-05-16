@@ -35,6 +35,7 @@ clang++
 ```
 That's it you are now good to go if no errors were occured
 
+You will need nerdfonts installed in your system
 
 
 ## License
