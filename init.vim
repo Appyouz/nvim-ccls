@@ -19,7 +19,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
 Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'jiangmiao/auto-pairs' " Auto pairs 
-Plug 'https://github.com/gruvbox-community/gruvbox'  "Gruvbox themes
 Plug 'neoclide/coc.nvim', {'branch': 'release'} "Coc for c++ completion
 
 "Themes#start 
@@ -36,8 +35,6 @@ call plug#end()
 
 set encoding=UTF-8
  
-"inoremap <c-b> <Esc>:NERDTreeToggle<cr>
-"nnoremap <c-b> <Esc>:NERDTreeToggle<cr>
 
 "let g:airline_theme='gruvbox'
 
@@ -51,19 +48,10 @@ nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
 
 nmap <F8> :TagbarToggle<CR>
 
-:set completeopt-=preview " For No Previews
 
 
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
-
-" --- Just Some Notes ---
-" :PlugClean :PlugInstall :UpdateRemotePlugins
-"
-" :CocInstall coc-python
-" :CocInstall coc-clangd
-" :CocInstall coc-snippets
-" :CocCommand snippets.edit... FOR EACH FILE TYPE
 
 " air-line
 let g:airline_powerline_fonts = 1
