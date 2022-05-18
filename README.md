@@ -21,9 +21,9 @@ sudo pacman -S nodejs
 
 ## Usage
  - Once you are done installing vim-plug, 
- - Make a new directory inside `.config` folder named as `nvim` ( `mkdir .config/nvim`) or just clone it inside .config <br>
+ - Make a new directory inside `.config` folder named as `nvim` ( `mkdir .config/nvim`)<br>
  - open up the `init.vim` file and use the following commands<br>
- - (you might see some warnings just dont freak out, everything will be fine once we done installing plugins) :
+ - (you might see some warnings just dont freak out, everything will be fine once done installing plugins) :
 
 ```bash
 :PlugInstall
@@ -35,7 +35,7 @@ clang++
 ```
 That's it you are now good to go if no errors were occured
 
-You will need nerdfonts installed in your system
+You will need nerdfonts installed in your system for airline symbols mentioned in the init.vim file.
 
 
 ## License
