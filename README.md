@@ -1,6 +1,7 @@
 # nvim
 
-A personal Neovim config 
+A personal Neovim config along with c++ auto completion using ccls
+### clangd is much easier (imo) ###
 
 ## Installation 
 Takes arch linux as a platform, just use your respective package manager for installing packages(for eg:- `sudo apt install` for debian)
